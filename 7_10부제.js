@@ -7,3 +7,13 @@
 한다. 날짜의 일의 자리 숫자가 주어지고 7대의 자동차 번호의 끝 두 자리 수가 주어졌을 때 
 위반하는 자동차의 대수를 출력하는 프로그램을 작성하세요.
  */
+
+function solution(cn, dn) {
+  let answer;
+
+    
+ 
+  return answer;
+}
+
+console.log(solution(3, [12, 77, 38, 41, 53, 92, 85]));
