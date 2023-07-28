@@ -13,7 +13,6 @@ function solution(dn, cn) {
 
   // 날짜 1의 자리 숫자를 받고
   // 자동차 번호 2자리를 여러 개 받았을 때
-
   // 1의 자리가 서로 일치하면 갯수를 카운트 한다.
 
   for (let carNum of cn) {
@@ -26,3 +25,16 @@ function solution(dn, cn) {
 }
 
 console.log(solution('3', ['13', '73', '38', '41', '53', '92', '85']));
+
+
+function solution(day, arr){
+  let answer=0;
+  for(let x of arr){
+      if(x % 10==day) answer++;
+  }
+  
+  return answer;
+}
+
+arr=[25, 23, 11, 47, 53, 17, 33];
+console.log(solution(3, arr));

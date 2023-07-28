@@ -22,3 +22,5 @@ function solution(n) {
 }
 
 console.log(solution([12, 77, 38, 41, 53, 92, 85]));
+
+
