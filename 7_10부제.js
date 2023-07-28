@@ -8,12 +8,21 @@
 위반하는 자동차의 대수를 출력하는 프로그램을 작성하세요.
  */
 
-function solution(cn, dn) {
-  let answer;
+function solution(dn, cn) {
+  let answer = 0;
 
-    
- 
+  // 날짜 1의 자리 숫자를 받고
+  // 자동차 번호 2자리를 여러 개 받았을 때
+
+  // 1의 자리가 서로 일치하면 갯수를 카운트 한다.
+
+  for (let carNum of cn) {
+    if (carNum[1] ===dn) {
+      answer++;
+    }
+  }
+
   return answer;
 }
 
-console.log(solution(3, [12, 77, 38, 41, 53, 92, 85]));
+console.log(solution('3', ['13', '73', '38', '41', '53', '92', '85']));
