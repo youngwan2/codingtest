@@ -4,7 +4,9 @@ function solution(ns) {
   let answer = [];
   answer.push(ns[0]);
   for (let i = 0; i < ns.length; i++) {
+    // 자신의 앞수 보다 크면 해당 수를 answer 배열에 담는다
     if (ns[i] > ns[i - 1]) {
+      console.log(ns[i], ns[i-1])
       answer.push(ns[i]);
     }
   }
