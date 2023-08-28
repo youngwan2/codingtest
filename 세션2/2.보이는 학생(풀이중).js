@@ -3,11 +3,18 @@
 램을 작성하세요. (앞에 서 있는 사람들보다 크면 보이고, 작거나 같으면 보이지 않습니다.)
  */
 
+// 선생의 키를 임의로 정하고, 해당 키를 기준으로 풀이
+// 학생들 간의 키를 비교한다면,..
 // 앞에 서 있는 사람들 보다 크면 보인다.
+// m[0]>m[i+1] 
+
 // 작거나 같으면 보이지 않는다.
-function solution(arr) {
+function solution(heightList) {
   let answer = [];
   
+  for(let key of heightList) {
+
+  }
 
   return answer;
 }
